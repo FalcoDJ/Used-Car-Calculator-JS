@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Used Car Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Used Car Calculator</h1>
+    </header>
+    <div id="announcement">
+        <h2 id="message"></h2>
+    </div>
+    <div class="input-panel">
+        <p>
+            Many people suffer from wanting buy overpriced used cars. Do you have a restrictive budget? Do you worry about breaking the bank to satisfy your unsatiable lust for cars?
+            Worry no more! Now, you can be fully aware of how much a used car will cost you, so that when you break the bank, you've done it intentionally.
+        </p>
+        <div class="in-line">
+            <div class="in-cat">Budget:</div><input type="text" id="budget">
+            <div class="in-cat">Price:</div><input type="text" id="price">
+        </div>
+        <div class="in-line">
+            <div class="in-cat">Sales Tax:</div><input type="text" id="sales-tax">
+            <div class="in-cat">Title:</div><input type="text" id="title">
+            <div class="in-cat">Tag:</div><input type="text" id="registration">
+        </div>
+        <div class="in-line">
+            <button class="submit">Submit</button>
+        </div>
+    </div>
+
+    <footer>Disclaimer: This tool may NEVER be used as financial advise, nor for financial guidance, or planning. It is only for educaitonal purposes.</footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
